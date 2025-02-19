@@ -9,10 +9,6 @@ docker info
 ```
 docker ps -a
 ```
-指定容器名稱
-```
-
-```
 啟動已終止容器
 ```
 docker start <CONTAINER_NAME_OR_ID>
