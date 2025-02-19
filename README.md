@@ -46,5 +46,9 @@ docker run --publish 8080:8080 --name my-docker-ps-ping docker-gs-ping
 ```
 docker exec -i -t my-docker-ps-ping /bin/bash
 ```
+Run in detached mode, Docker can run your container in detached mode in the background.
+```
+docker run -d -p 8080:8080 docker-gs-ping
+```
 
 ## [Use Colima to Run Docker Containers on macOS](https://smallsharpsoftwaretools.com/tutorials/use-colima-to-run-docker-containers-on-macos/)
