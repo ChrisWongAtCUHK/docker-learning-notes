@@ -70,3 +70,9 @@ heroku stack:set container
 heroku container:push web
 heroku container:release web
 ```
+
+## 清理 Docker 系統快取
+```
+docker system prune -a  # 刪除所有未使用的鏡像、容器和網路
+docker builder prune    # 專門刪除編譯快取
+```
